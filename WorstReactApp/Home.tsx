@@ -12,6 +12,7 @@ export default function Home({ navigation }: HomeProps) {
     <View>
       <Text>My Home Page</Text>
       <Button title="Click Me" onPress={() => navigation.navigate("MyNewPage" as never)} />
+      <Button title='Log In' onPress={()=> navigation.navigate('Login' as never)} />
     </View>
   );
 }
